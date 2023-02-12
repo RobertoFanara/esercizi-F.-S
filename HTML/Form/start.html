@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Inserisci i tuoi dati !</h1>
+    <form>
+      <label for="mail">Inserisci la tua email:</label>
+      <input type="email" name="mail" placeholder="mariorossi@esempio.it">
+
+      <label for="password">Inserisci la password:</label>
+      <input type="password" name="password">
+      
+      <label for="name">Qual'è il tuo nome?</label>
+      <input type="text" name="name" placeholder="Giuseppe">
+
+      <label for="surname">Qual'è il tuo cognome?</label>
+      <input type="text" name="surname" placeholder="Franchi">
+
+      <Label for="birth">Quando sei nato/a?</Label>
+      <input type="date" name="birth">
+
+      <label for="num. telephone">Insierisci il tuo numero di telefono:</label>
+      <input type="tel" name="num. telephone" placeholder="+39 123 4567 890">
+
+      <label for="piani">Scegli uno dei piani disponibili:</label>
+      <select>
+        <option value="FreePlan">Piano Gratuito</option>
+        <optgroup label="Piani a pagamento">
+        <option value="1stPlan">Low: 25$</option>
+        <option value="NoValue">Mid: 75$</option>
+        <option value="NoValue">Ultra: 125$</option>
+        </optgroup>
+      </select>
+      <label for="proPlan">Vuoi usufruire del piano Pro?</label>
+      <input type="checkbox" name="proPlan">
+
+      <hr>
+
+      <h3>Dati di pagamento</h3>
+
+      <label for="creditCard">Inserisci qua la tua carta di credito:</label>
+      <input type="text" name="creditCard" placeholder="0000 0000 0000 0000">
+      <input type="text" name="creditCard" placeholder="000">
+      <input type="month" name="creditCard">
+
+      <p></p>
+
+      <label for="address">Inserisci il tuo indirizzo postale:</label>
+      <input type="text" name="address" placeholder="00000">
+
+
+    </form>
+  </body>
+</html>
